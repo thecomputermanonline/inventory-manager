@@ -1,0 +1,16 @@
+#hiderow,
+.delete {
+  display: none;
+}
+ body * {
+visibility:hidden;
+}
+#page-wrap, #page-wrap * {
+visibility:visible;
+}
+#page-wrap { /* aligning the printable area */
+position:absolute;
+left:40;
+top:40;
+}
+}
